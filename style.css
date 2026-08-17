@@ -832,6 +832,72 @@ footer{
 /* =========================
    MOBILE
 ========================= */
+/* =========================
+   COMPANIES WE WORK WITH
+========================= */
+
+.partners-section{
+  background:#0c0f12;
+}
+
+.partners-intro{
+  max-width:650px;
+  color:var(--muted);
+  margin-top:20px;
+  font-size:16px;
+}
+
+.partners-grid{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:15px;
+  margin-top:50px;
+}
+
+.partner-card{
+  min-height:190px;
+  padding:28px;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+
+  background:#151a1f;
+  border:1px solid var(--line);
+
+  transition:.3s;
+}
+
+.partner-card:hover{
+  transform:translateY(-7px);
+  border-color:rgba(242,140,40,.6);
+  background:#1a2026;
+}
+
+.partner-number{
+  color:var(--accent);
+  font-size:12px;
+  font-weight:bold;
+  letter-spacing:2px;
+}
+
+.partner-card h3{
+  font-size:21px;
+  line-height:1.25;
+  color:var(--text);
+}
+
+/* PARTNERS RESPONSIVE */
+@media(max-width:1000px){
+  .partners-grid{
+    grid-template-columns:repeat(2,1fr);
+  }
+}
+
+@media(max-width:700px){
+  .partners-grid{
+    grid-template-columns:1fr;
+  }
+}
 
 @media(max-width:700px){
 

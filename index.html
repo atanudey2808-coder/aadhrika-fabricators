@@ -1,93 +1,560 @@
-<!doctype html>
-<html lang="en"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="AADHRIKA FABRICATORS - fabrication, welding and structural steel work">
-<title>AADHRIKA FABRICATORS | Fabrication & Structural Work</title>
-<link rel="stylesheet" href="style.css"></head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description" content="AADHRIKA FABRICATORS - Professional Fabrication, Welding and Structural Steel Work in Howrah, West Bengal.">
+
+  <title>AADHRIKA FABRICATORS | Built Strong. Made to Last.</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
 <body>
-<header><a class="brand" href="#home"><img src="WhatsApp%20Image%202026-05-27%20at%206.12.40%20PM.jpeg" alt="AADHRIKA FABRICATORS" style="height:60px;width:auto;"><strong>AADHRIKA FABRICATORS</strong></a>
-<nav><a href="#home">Home</a><a href="#about">About</a><a href="#services">Services</a><a href="#projects">Projects</a><a href="#team">Co-Founders</a><a href="#business-info">Business Info</a><a href="#location">Location</a><a href="#contact">Contact</a></nav></header>
-<section id="home" class="hero"><div><small>FABRICATION • WELDING • STRUCTURAL WORK</small>
-<h1>Built Strong.<br><i>Made to Last.</i></h1>
-<p>Professional fabrication solutions for residential, commercial and industrial requirements, with a focus on quality workmanship and dependable service.</p>
-<a class="btn dark" href="#projects">View Our Work</a> <a class="btn" href="tel:7003166382">Call 7003166382</a>
-<div class="ticks">✓ Quality Workmanship &nbsp; ✓ Custom Solutions &nbsp; ✓ Reliable Service</div></div>
-<img class="heroimg" src="project-5.jpg" alt="Structural steel fabrication project"></section>
-<section id="about" class="section white"><small>ABOUT US</small><h2>Fabrication that works as hard as you do.</h2>
-<p>AADHRIKA FABRICATORS provides practical metal fabrication and structural work for projects that demand strength, accuracy and dependable execution. From workshop fabrication to site work and installation, we focus on getting the job done properly.</p></section>
-<section id="team" class="section">
-  <small>OUR TEAM</small>
-  <h2>Co-Founders</h2>
 
-  <div class="cards">
-    <div class="card"><h3>Animesh Das</h3><p>Co-founder & Director</p></div>
-    <div class="card"><h3>Moloy Shaw</h3><p>Co-founder & Management</p></div>
-    <div class="card"><h3>Saikat Singh</h3><p>Co-founder & Operation Head</p></div>
-    <div class="card"><h3>Atanu Dey</h3><p>Co-founder & Accountant</p></div>
-  </div>
-</section>
-<section id="services" class="section"><small>WHAT WE DO</small><h2>Our Services</h2><div class="cards">
-<div><b>01</b><h3>Structural Steel</h3><p>Fabrication and assembly of steel structures and supporting members.</p></div>
-<div><b>02</b><h3>Custom Fabrication</h3><p>Made-to-measure steel components and fabrication solutions.</p></div>
-<div><b>03</b><h3>Welding Work</h3><p>Reliable welding and joining work for fabrication requirements.</p></div>
-<div><b>04</b><h3>Site & Installation</h3><p>On-site fabrication, handling, erection and installation support.</p></div>
-</div></section>
-<section id="projects" class="section"><small>OUR WORK</small><h2>Project Gallery</h2><p>Real photos from our workshop, structural fabrication and completed work.</p>
-<div class="gallery">
-<img src="project-1.jpg" alt="Fabrication workshop"><img src="project-2.jpg" alt="Company office">
-<img src="project-3.jpg" alt="Structural fabrication"><img src="project-4.jpg" alt="Steel fabrication">
-<img src="project-5.jpg" alt="Steel structure and crane"><img src="project-6.jpg" alt="Fabricated steel structure">
-<img src="project-7.jpg" alt="Workshop entrance"><img src="project-8.jpg" alt="Steel structure project">
-</div></section>
-<section class="cta"><div><small>LET'S BUILD</small><h2>Have a fabrication requirement?</h2><p>Call us to discuss your project.</p></div>
-<a class="btn light" href="tel:7003166382">Call Now</a>
-<a class="btn lime" href="https://wa.me/917003166382?text=Hello%20AADHRIKA%20FABRICATORS,%20I%20would%20like%20to%20discuss%20a%20fabrication%20project.">WhatsApp</a></section>
-<section id="business-info" class="section">
-  <small>BUSINESS INFORMATION</small>
-  <h2>Get in Touch With Us</h2>
-  <p>We are ready to discuss your fabrication, welding and structural steel requirements.</p>
+  <!-- HEADER -->
+  <header class="header">
+    <a href="#home" class="brand">
+      <img src="WhatsApp%20Image%202026-05-27%20at%206.12.40%20PM.jpeg"
+           alt="AADHRIKA FABRICATORS Logo">
+      <div>
+        <strong>AADHRIKA</strong>
+        <span>FABRICATORS</span>
+      </div>
+    </a>
 
-  <div class="cards">
-    <div class="card">
-      <h3>📍 Address</h3>
-      <p>Chandni Bagan Rd, near Domjur, Biswaspara, Mahiari, Howrah, West Bengal 711302</p>
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu">
+      ☰
+    </button>
+
+    <nav id="navMenu">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#projects">Projects</a>
+      <a href="#team">Co-Founders</a>
+      <a href="#business-info">Business Info</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+
+  <main>
+
+    <!-- HERO -->
+    <section id="home" class="hero">
+
+      <div class="hero-overlay"></div>
+
+      <div class="hero-content">
+
+        <p class="eyebrow">
+          FABRICATION • WELDING • STRUCTURAL STEEL
+        </p>
+
+        <h1>
+          Built Strong.<br>
+          <span>Made to Last.</span>
+        </h1>
+
+        <p class="hero-text">
+          Professional fabrication, welding and structural steel solutions
+          for residential, commercial and industrial projects.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">
+            View Our Work
+          </a>
+
+          <a href="tel:8584977474" class="btn btn-outline">
+            📞 Call Now
+          </a>
+        </div>
+
+        <div class="hero-features">
+          <span>✓ Quality Workmanship</span>
+          <span>✓ Custom Solutions</span>
+          <span>✓ Reliable Service</span>
+        </div>
+
+      </div>
+
+      <div class="hero-scroll">
+        SCROLL TO EXPLORE ↓
+      </div>
+
+    </section>
+
+
+    <!-- ABOUT -->
+    <section id="about" class="section about-section">
+
+      <div class="section-grid">
+
+        <div>
+          <p class="eyebrow">ABOUT US</p>
+
+          <h2>
+            Strong Work.<br>
+            <span>Reliable Results.</span>
+          </h2>
+        </div>
+
+        <div class="about-text">
+          <p>
+            AADHRIKA FABRICATORS provides practical metal fabrication,
+            welding and structural steel solutions for residential,
+            commercial and industrial requirements.
+          </p>
+
+          <p>
+            From workshop fabrication to site installation, we focus on
+            strength, accuracy, quality workmanship and dependable service.
+          </p>
+
+          <div class="stats">
+            <div>
+              <strong>100%</strong>
+              <span>Commitment</span>
+            </div>
+
+            <div>
+              <strong>4</strong>
+              <span>Core Leaders</span>
+            </div>
+
+            <div>
+              <strong>6+</strong>
+              <span>Key Services</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- SERVICES -->
+    <section id="services" class="section dark-section">
+
+      <div class="section-heading">
+        <p class="eyebrow">WHAT WE DO</p>
+
+        <h2>
+          Engineering Strength<br>
+          Into Every Project.
+        </h2>
+      </div>
+
+      <div class="service-grid">
+
+        <article class="service-card">
+          <div class="service-number">01</div>
+          <h3>Structural Steel</h3>
+          <p>
+            Fabrication and assembly of steel structures and supporting members.
+          </p>
+        </article>
+
+        <article class="service-card">
+          <div class="service-number">02</div>
+          <h3>Custom Fabrication</h3>
+          <p>
+            Made-to-measure steel components and custom fabrication solutions.
+          </p>
+        </article>
+
+        <article class="service-card">
+          <div class="service-number">03</div>
+          <h3>Welding Work</h3>
+          <p>
+            Reliable welding and joining work for a wide range of fabrication requirements.
+          </p>
+        </article>
+
+        <article class="service-card">
+          <div class="service-number">04</div>
+          <h3>Site & Installation</h3>
+          <p>
+            On-site fabrication, handling, erection and installation support.
+          </p>
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- WHY CHOOSE US -->
+    <section class="section why-section">
+
+      <div class="section-heading">
+        <p class="eyebrow">WHY CHOOSE US</p>
+
+        <h2>
+          Built on Quality.<br>
+          Driven by Commitment.
+        </h2>
+      </div>
+
+      <div class="why-grid">
+
+        <div class="why-item">
+          <span>01</span>
+          <div>
+            <h3>Quality Workmanship</h3>
+            <p>Careful attention to strength, finish and practical execution.</p>
+          </div>
+        </div>
+
+        <div class="why-item">
+          <span>02</span>
+          <div>
+            <h3>Custom Solutions</h3>
+            <p>Fabrication solutions designed around project requirements.</p>
+          </div>
+        </div>
+
+        <div class="why-item">
+          <span>03</span>
+          <div>
+            <h3>Reliable Service</h3>
+            <p>Dependable support from fabrication through installation.</p>
+          </div>
+        </div>
+
+        <div class="why-item">
+          <span>04</span>
+          <div>
+            <h3>Strong & Durable Work</h3>
+            <p>Focused on fabrication built for real working conditions.</p>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section projects-section">
+
+      <div class="section-heading project-heading">
+
+        <div>
+          <p class="eyebrow">OUR WORK</p>
+
+          <h2>
+            Projects That<br>
+            Speak for Themselves.
+          </h2>
+        </div>
+
+        <p>
+          A selection of real workshop, fabrication and structural steel projects.
+        </p>
+
+      </div>
+
+      <div class="gallery">
+
+        <button class="gallery-item" data-image="project-1.jpg">
+          <img src="project-1.jpg" alt="AADHRIKA FABRICATORS fabrication workshop" loading="lazy">
+        </button>
+
+        <button class="gallery-item" data-image="project-2.jpg">
+          <img src="project-2.jpg" alt="AADHRIKA FABRICATORS office" loading="lazy">
+        </button>
+
+        <button class="gallery-item" data-image="project-3.jpg">
+          <img src="project-3.jpg" alt="Structural fabrication work" loading="lazy">
+        </button>
+
+        <button class="gallery-item" data-image="project-4.jpg">
+          <img src="project-4.jpg" alt="Steel fabrication project" loading="lazy">
+        </button>
+
+        <button class="gallery-item" data-image="project-5.jpg">
+          <img src="project-5.jpg" alt="Structural steel project" loading="lazy">
+        </button>
+
+        <button class="gallery-item" data-image="project-6.jpg">
+          <img src="project-6.jpg" alt="Fabricated steel structure" loading="lazy">
+        </button>
+
+        <button class="gallery-item" data-image="project-7.jpg">
+          <img src="project-7.jpg" alt="Fabrication workshop site" loading="lazy">
+        </button>
+
+        <button class="gallery-item" data-image="project-8.jpg">
+          <img src="project-8.jpg" alt="Steel fabrication and equipment" loading="lazy">
+        </button>
+
+      </div>
+
+    </section>
+
+
+    <!-- CO-FOUNDERS -->
+    <section id="team" class="section team-section">
+
+      <div class="section-heading">
+        <p class="eyebrow">OUR LEADERSHIP</p>
+
+        <h2>
+          Meet Our<br>
+          Co-Founders.
+        </h2>
+      </div>
+
+      <div class="team-grid">
+
+        <article class="team-card">
+          <div class="team-initial">AD</div>
+          <h3>Animesh Das</h3>
+          <p>Co-Founder & Director</p>
+        </article>
+
+        <article class="team-card">
+          <div class="team-initial">MS</div>
+          <h3>Moloy Shaw</h3>
+          <p>Co-Founder & Management</p>
+        </article>
+
+        <article class="team-card">
+          <div class="team-initial">SS</div>
+          <h3>Saikat Singh</h3>
+          <p>Co-Founder & Operation Head</p>
+        </article>
+
+        <article class="team-card">
+          <div class="team-initial">AD</div>
+          <h3>Atanu Dey</h3>
+          <p>Co-Founder & Accountant</p>
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- BUSINESS INFO -->
+    <section id="business-info" class="section dark-section business-section">
+
+      <div class="section-heading">
+        <p class="eyebrow">BUSINESS INFORMATION</p>
+
+        <h2>
+          Let's Build<br>
+          Something Strong.
+        </h2>
+      </div>
+
+      <div class="business-grid">
+
+        <div class="business-card">
+          <span>📍</span>
+          <h3>Address</h3>
+          <p>
+            Chandni Bagan Rd, near Domjur, Biswaspara, Mahiari,
+            Howrah, West Bengal 711302
+          </p>
+        </div>
+
+        <div class="business-card">
+          <span>📞</span>
+          <h3>Phone</h3>
+          <p>
+            <a href="tel:8584977474">8584977474</a>
+          </p>
+        </div>
+
+        <div class="business-card">
+          <span>✉️</span>
+          <h3>Email</h3>
+          <p>
+            <a href="mailto:animeshdas6437@gamil.com">
+              animeshdas6437@gamil.com
+            </a>
+          </p>
+        </div>
+
+        <div class="business-card">
+          <span>🧾</span>
+          <h3>GSTIN</h3>
+          <p>19BWYPD3469H1ZU</p>
+        </div>
+
+        <div class="business-card">
+          <span>🏢</span>
+          <h3>UDYAM Registration</h3>
+          <p>UDYAM-WB-08-0085215</p>
+        </div>
+
+        <div class="business-card">
+          <span>🕒</span>
+          <h3>Business Hours</h3>
+          <p>Monday–Saturday<br>8:00 AM–8:00 PM</p>
+        </div>
+
+      </div>
+
+      <a class="btn btn-primary directions-btn"
+         href="https://maps.app.goo.gl/o2WD5tpYs6pR9nkt6"
+         target="_blank"
+         rel="noopener">
+        📍 Get Directions on Google Maps
+      </a>
+
+    </section>
+
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact-section">
+
+      <div>
+        <p class="eyebrow">CONTACT US</p>
+
+        <h2>
+          Have a Project<br>
+          in Mind?
+        </h2>
+
+        <p>
+          Contact AADHRIKA FABRICATORS to discuss your fabrication,
+          welding or structural steel requirements.
+        </p>
+      </div>
+
+      <div class="contact-buttons">
+
+        <a href="tel:8584977474" class="contact-btn">
+          <span>📞</span>
+          Call Now
+        </a>
+
+        <a href="https://wa.me/918584977474?text=Hello%20AADHRIKA%20FABRICATORS%2C%20I%20would%20like%20to%20discuss%20a%20project."
+           class="contact-btn whatsapp"
+           target="_blank"
+           rel="noopener">
+          <span>💬</span>
+          WhatsApp Us
+        </a>
+
+        <a href="mailto:animeshdas6437@gamil.com"
+           class="contact-btn">
+          <span>✉️</span>
+          Email Us
+        </a>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- FOOTER -->
+  <footer>
+
+    <div class="footer-top">
+
+      <div class="footer-brand">
+        <h3>AADHRIKA FABRICATORS</h3>
+        <p>Built Strong. Made to Last.</p>
+      </div>
+
+      <div>
+        <h4>Services</h4>
+        <p>Structural Steel</p>
+        <p>Custom Fabrication</p>
+        <p>Welding Work</p>
+        <p>Site & Installation</p>
+      </div>
+
+      <div>
+        <h4>Contact</h4>
+        <p>8584977474</p>
+        <p>animeshdas6437@gamil.com</p>
+        <p>Howrah, West Bengal</p>
+      </div>
+
     </div>
 
-    <div class="card">
-      <h3>📞 Phone</h3>
-      <p><a href="tel:8584977474">8584977474</a></p>
+    <div class="footer-bottom">
+      © 2026 AADHRIKA FABRICATORS. All Rights Reserved.
     </div>
 
-    <div class="card">
-      <h3>✉️ Email</h3>
-      <p><a href="mailto:animeshdas6437@gamil.com">animeshdas6437@gamil.com</a></p>
-    </div>
+  </footer>
 
-    <div class="card">
-      <h3>🧾 GSTIN</h3>
-      <p>19BWYPD3469H1ZU</p>
-    </div>
 
-    <div class="card">
-      <h3>🏢 UDYAM Registration</h3>
-      <p>UDYAM-WB-08-0085215</p>
-    </div>
-
-    <div class="card">
-      <h3>🕒 Business Hours</h3>
-      <p>Monday–Saturday<br>8:00 AM–8:00 PM</p>
-    </div>
-  </div>
-
-  <a class="btn dark"
-     href="https://maps.app.goo.gl/o2WD5tpYs6pR9nkt6"
-     target="_blank">
-     📍 Get Directions
+  <!-- WHATSAPP FLOATING BUTTON -->
+  <a class="whatsapp-float"
+     href="https://wa.me/918584977474?text=Hello%20AADHRIKA%20FABRICATORS%2C%20I%20would%20like%20to%20discuss%20a%20project."
+     target="_blank"
+     rel="noopener"
+     aria-label="Chat on WhatsApp">
+    WA
   </a>
-</section>
-<section id="contact" class="section white"><small>CONTACT</small><h2>Let's talk about your project.</h2>
-<p>Phone: <a href="tel:7003166382">7003166382</a> / <a href="tel:8584977474">8584977474</a></p>
-<p><a href="https://maps.app.goo.gl/JdvNPiTLvv2FX6AF8" target="_blank">📍 Open our location in Google Maps</a></p></section>
-<a class="wa" href="https://wa.me/917003166382?text=Hello%20AADHRIKA%20FABRICATORS,%20I%20would%20like%20to%20discuss%20a%20fabrication%20project.">WA</a>
-<footer>© 2026 AADHRIKA FABRICATORS. All rights reserved.</footer>
-</body></html>
+
+
+  <!-- IMAGE LIGHTBOX -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="closeLightbox" aria-label="Close image">
+      ×
+    </button>
+
+    <img id="lightboxImage" src="" alt="Project image">
+  </div>
+
+
+  <script>
+    const menuBtn = document.getElementById("menuBtn");
+    const navMenu = document.getElementById("navMenu");
+
+    menuBtn.addEventListener("click", function () {
+      navMenu.classList.toggle("active");
+    });
+
+    document.querySelectorAll("nav a").forEach(function(link) {
+      link.addEventListener("click", function() {
+        navMenu.classList.remove("active");
+      });
+    });
+
+
+    const lightbox = document.getElementById("lightbox");
+    const lightboxImage = document.getElementById("lightboxImage");
+    const closeLightbox = document.getElementById("closeLightbox");
+
+    document.querySelectorAll(".gallery-item").forEach(function(item) {
+
+      item.addEventListener("click", function() {
+
+        lightboxImage.src = item.dataset.image;
+        lightbox.classList.add("show");
+
+      });
+
+    });
+
+    closeLightbox.addEventListener("click", function() {
+      lightbox.classList.remove("show");
+    });
+
+    lightbox.addEventListener("click", function(event) {
+
+      if (event.target === lightbox) {
+        lightbox.classList.remove("show");
+      }
+
+    });
+  </script>
+
+</body>
+</html>
